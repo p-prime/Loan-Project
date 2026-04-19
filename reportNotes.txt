@@ -1,0 +1,16 @@
+Problem Statement:
+The goal is to predict whether a loan application will be approved or rejected based on applicant details such as income, credit history, education, and property area.
+
+Business Objective:
+Help financial institutions automate loan approval decisions and reduce risk.
+
+
+
+
+Exploratory Data Analysis (EDA) was performed to understand relationships between features.
+
+The correlation heatmap shows that Credit_History has the highest positive correlation (~0.54) with Loan_Status, indicating it is the most important factor in loan approval decisions.
+
+Additionally, ApplicantIncome shows a moderate correlation (~0.57) with LoanAmount, suggesting that higher income applicants tend to request higher loan amounts.
+
+The Loan Status distribution indicates that the dataset is slightly imbalanced, with more approved loans (1) than rejected loans (0).
