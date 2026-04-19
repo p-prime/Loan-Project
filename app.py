@@ -14,6 +14,7 @@ class InputData(BaseModel):
     data: list
     
     
+    
 @app.get("/")
 def home():
     return {"message": "Loan Prediction API is running"}
